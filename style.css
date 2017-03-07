@@ -1,0 +1,18 @@
+h1 {
+  font-family:Merriweather;
+  font-weight:bold;
+}
+
+body {
+  font-size:11pt;
+  font-family:Arial;
+  text-indent:40px;
+  background-color:black;
+  color:white;
+
+}
+
+h2 {
+  font-family:Rubik;
+  text-decoration:underline;
+}
