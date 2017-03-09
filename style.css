@@ -6,7 +6,7 @@ h1 {
 }
 body {
   font-size:11pt;
-  font-family:Arial, sans-serif;;
+  font-family:Arial, sans-serif;
   text-indent:40px;
   background-color:black;
   color:white;
@@ -18,16 +18,16 @@ h2 {
   text-decoration:underline;
 }
 #aboutme{
-  margin:10px 10px 15px 200px
+  margin:10px 10px 15px 200px;
 }
 #background{
-  margin:10px 10px 15px 800px
+  margin:10px 10px 15px 800px;
 }
 #education{
-  margin:10px 10px 15px 200px
+  margin:10px 10px 15px 200px;
 }
 #goals{
-  margin:10px 10px 15px 800px
+  margin:10px 10px 15px 800px;
 }
 ul {
   font-size:18px;

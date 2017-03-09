@@ -106,18 +106,15 @@ while (userGuess <= 4) {
     alert('You lose!');
   }
 }
-var myAnswers = ['Band of Brothers', 'Casablanca', 'Fences', 'Arrival','Hacksaw Ridge','Passengers','Dr. Strange','Finding Dora','Moana','John Wick'];
-var userGuess = prompt('Can you guess one of my favorite movies?');
-for (i = 0; i < myAnswers.length; i++);
-if(userGuess.toLowerCase === myAnswers) {
-  alert('Congrats!');
-}
-else {
-  alert('Nope!');
-}
-var userGuesses = 1;
-while(userGuesses <= 7);
 
-var userCounter = 0;
-userCounter ++;
-alert('You have guessed a total of ' + userCounter + 'times.');
+var myAnswers = ['band of brothers', 'casablanca', 'fences', 'arrival','hacksaw ridge','passengers','dr. strange','finding dora','moana','john wick'];
+for (i = 1; i < 7; i++){
+  var userAnswer = prompt('Can you guess one of my favorite movies? Try: ' + i).toLowerCase();
+  if( myAnswers.indexOf(userAnswer) != -1) {
+    alert('Congrats! You guessed ' + i + ' times');
+    break;
+  }
+  else {
+    alert('Nope!');
+  }
+}
