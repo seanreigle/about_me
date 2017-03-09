@@ -1,15 +1,50 @@
 h1 {
-  font-family:Merriweather;
+  font-family:cursive, sans-serif;
   font-weight:bold;
+  text-align:center;
+  font-size:40px;
 }
 body {
   font-size:11pt;
-  font-family:Arial;
+  font-family:Arial, sans-serif;;
   text-indent:40px;
   background-color:black;
   color:white;
+  border-style:double;
+  border-width:2px;
 }
 h2 {
-  font-family:Rubik;
+  font-family:Rubik, sans-serif;
   text-decoration:underline;
+}
+#aboutme{
+  margin:10px 10px 15px 200px
+}
+#background{
+  margin:10px 10px 15px 800px
+}
+#education{
+  margin:10px 10px 15px 200px
+}
+#goals{
+  margin:10px 10px 15px 800px
+}
+ul {
+  font-size:18px;
+}
+#about_me{
+  margin:10px 600px 15px 20px;
+  letter-spacing:2pt;
+}
+#mybackground{
+  margin:10px 5px 15px 600px;
+  letter-spacing:2pt;
+}
+#myeducation{
+  margin:10px 600px 15px 20px;
+  letter-spacing:2pt;
+}
+#mygoals{
+  margin:10px 5px 15px 600px;
+  letter-spacing:2pt;
 }
