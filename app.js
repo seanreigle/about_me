@@ -115,3 +115,9 @@ if(userGuess.toLowerCase === myAnswers) {
 else {
   alert('Nope!');
 }
+var userGuesses = 1;
+while(userGuesses <= 7);
+
+var userCounter = 0;
+userCounter ++;
+alert('You have guessed a total of ' + userCounter + 'times.');
